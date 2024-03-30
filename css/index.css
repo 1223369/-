@@ -1,0 +1,32 @@
+html,
+body {
+  font-family: 'Microsoft YaHei';
+  color: #333;
+  background-color: #fff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* 解决 找房页面 展示遮罩层后，页面还会滚动的问题 */
+.body-fixed {
+  overflow: hidden;
+}
+:root {
+  --adm-color-primary: #21b97a !important;
+  --adm-button-background-color: #21b97a;
+}
+/*# sourceMappingURL=./index.css.map */

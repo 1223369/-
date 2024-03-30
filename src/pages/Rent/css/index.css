@@ -1,0 +1,50 @@
+.rentAdd {
+  padding-bottom: 45px;
+  background-color: #f5f5f9;
+}
+.rentAdd .adm-list {
+  margin-bottom: 10px;
+}
+.rentAdd .adm-list .adm-list-header {
+  color: #333;
+}
+.rentAdd .adm-list .adm-list-item-content-main {
+  display: flex;
+  align-items: center;
+}
+.rentAdd .adm-list .adm-list-item-content-main > span:first-child {
+  width: 90px;
+}
+.rentAdd .adm-list .adm-list-item-content-main textarea {
+  height: 90px;
+}
+.rentAdd .header .adm-input-element {
+  text-align: end;
+}
+.rentAdd .bottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 45px;
+  z-index: 1;
+  color: #fff;
+  font-size: 15px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+}
+.rentAdd .bottom .confirm {
+  flex-grow: 1;
+  height: 45px;
+  line-height: 45px;
+  background-color: #21b97a;
+}
+.rentAdd .bottom .cancel {
+  flex-grow: 1;
+  color: #21b97a;
+  background-color: #fff;
+  height: 100%;
+  line-height: 45px;
+}
+/*# sourceMappingURL=./index.css.map */
